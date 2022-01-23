@@ -8,5 +8,11 @@ public class Main {
         DeluxeBurger deluxeBurger = new DeluxeBurger();
         deluxeBurger.addHamburgerAddition3("Fanta",12);
         System.out.println("Total DeluxeBurger price is " + deluxeBurger.itemizeHamburger());
+        HealthyBurger healthyBurger = new HealthyBurger("Eggs",6);
+        healthyBurger.addHamburgerAddition1("bacon",4.5);
+        healthyBurger.addHealthyAddition1("Tomato",1);
+        System.out.println("Total HealthyBurger price is " + healthyBurger.itemizeHamburger());
+
+
     }
 }
